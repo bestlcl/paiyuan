@@ -1,0 +1,75 @@
+const debug = process.env.NODE_ENV !== 'production'
+export const HOST = debug ? '//114.80.154.45/3CWeb' : '/3CWeb'
+// export const HOST = debug ? '//10.102.16.202:8080/3CWeb' : '/3CWeb'
+export const defaultLogo = '/assets/logo.png'
+export const defaultType = 'PHONEWEB'
+export const defaultTime = '时间待定'
+export const defaultLecture = '主讲人待定'
+export const defaultSponsor = '主办方待定'
+export const defaultTitle = '会议标题待定'
+export const defaultCity = '会议地点待定'
+export const defaultHead = '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'
+export const moduleName = '3C'
+//顶部commonHeader高度
+export const HEADER_HEIGHT = 45
+//底部tab高度
+export const TAB_HEIGHT = 40
+//selector高度
+export const SELECTOR_HEIGHT = 40
+// 视频点播地址
+export const VOD_ADDR = 'http://wind.gensee.com/webcast/site/vod/play-'
+export const playMediaType = {
+  float: 1, //悬浮
+  history: 2, //历史会议播放
+  live: 3 //直播会议
+}
+//登录
+export const loginUrl = HOST + '/login.json'
+//最新会议
+export const getLatestMeetingUrl = HOST + '/getLatestMeeting.json'
+//历史会议
+export const getHistoryMeetingUrl = HOST + '/getHistoryMeeting.json'
+//会议资讯
+export const getOfflineMeetingListUrl = HOST + '/getOfflineMeetingList.json'
+//个人中心 身份信息
+export const getUserInfoUrl = HOST + '/getUserInfo.json'
+//头像
+export const getUserHeadPortraitByCRMIdUrl = HOST + '/getUserHeadPortraitByCRMId.json'
+//个人中心 公开会议
+export const getMyMeetingListUrl = HOST + '/getMyMeetingList.json'
+//个人中心 私人会议
+export const getMyPrivateMeetingUrl = HOST + '/getMyPrivateMeeting.json'
+//个人中心 我的收藏
+export const getBookMarkedMeetingListUrl = HOST + '/getBookMarkedMeetingList.json'
+//创建会议
+export const createNewMeetingUrl = HOST + '/createNewMeeting.json'
+//搜索会议
+export const searchMeetingUrl = HOST + '/searchMeeting.json'
+//会议详情
+export const getMeetingDetailUrl = HOST + '/getMeetingDetail.json'
+//获取评论
+export const getMeetingCommentsDetailUrl = HOST + '/getMeetingCommentsDetail.json'
+//评论
+export const commentMeetingUrl = HOST + '/commentMeeting.json'
+//录音地址
+export const getRecordUrl = HOST + '/getRecordUrl.json'
+//视频回放地址
+export const getMeetingPlaybackUrl = HOST + '/getMeetingPlaybackUrl.json'
+//文档地址
+export const getDocumentUrl = HOST + '/getDocumentUrl.json'
+//取消收藏
+export const bookMarkMeeting = HOST + '/bookmarkMeeting.json'
+//获取iWand好友
+export const getUserListGroupUrl = HOST + '/getUserListGroup.json'
+//获取头像
+export const getUserAvatarUrl = HOST + '/getUserAvatar.json'
+//获取会议资讯详情
+export const getMeetingInfoDetail = HOST + '/getOfflineMeetingDetail.json'
+//会议鉴权
+export const isCrmRestrictedForMeeting = HOST + '/isCrmRestrictedForMeeting.json'
+//播放错误日志
+export const addUserLogOfPlayFailed = HOST + 'addUserLogOfPlayFailed.json'
+//创建公开会议
+export const createPublicMeetingUrl = HOST + '/createPublicMeeting.json'
+//创建私人会议
+export const createPrivateMeetingUrl = HOST + '/createPrivateMeeting.json'

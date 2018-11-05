@@ -1,0 +1,22 @@
+export const newestMeetingList = state => state.newestMeetingList
+export const historyMeetingList = state => state.historyMeetingList
+export const headerSearchStr = state => state.headerSearchStr
+export const headerMorePopup = state => state.headerMorePopup
+export const myCollectionMeetingList = state => state.myCollectionMeetingList
+export const publishedMeetingList = state => state.publishedMeetingList
+export const latestPlayMeetingList = state => state.latestPlayMeetingList
+//获取用户crmId
+export const userCrmId = state => state.userInfo.crmId
+export const meetingDetail = state => state.meetingDetail
+export const commentList = state => state.commentList
+export const attendanceList = state => state.attendanceList
+export const iWindContactList = state => state.iWindContactList
+export const phoneContactList = state => state.phoneContactList
+export const meetingInfoList = state => state.meetingInfoList
+export const privateMeetingList = state => state.privateMeetingList
+export const serverInfo = state => state.serverInfo
+export const currentPlayMeeting = state => state.currentPlayMeeting
+export const personalCenterCount = state => state.personalCenterNum
+export const restrictedMeetingList = state => state.restrictedMeetingList
+export const sessionid = state => state.sessionid
+export const appInfo = state => state.appInfo

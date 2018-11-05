@@ -1,0 +1,50 @@
+@import "variable.scss";
+
+body, html {
+  user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background: $body-background;
+  color: $color-text;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-small;
+  box-sizing: border-box;
+}
+
+a {
+  color: $color-text;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+input {
+  font-family: $font-family;
+}
+
+.iconfont, [class^="icon-"], [class*=" icon-"] {
+  font-size: $font-size-icon-medium;
+}
+
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,42 @@
+// 颜色定义规范
+$body-background: #efeff4;
+$tab-background: #fff;
+
+$color-background: #222;
+$color-background-d: rgba(0, 0, 0, 0.3);
+$color-highlight-background: #333;
+$color-dialog-background: #666;
+$color-theme: #dd2637;
+$color-theme-d: rgba(255, 205, 49, 0.5);
+$color-sub-theme: #d93f30;
+$color-text: #666;
+$color-text-d: rgba(255, 255, 255, 0.3);
+$color-text-l: rgba(255, 255, 255, 0.5);
+$color-text-ll: rgba(208, 208, 208, 0.82);
+
+//字体定义规范
+$font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+$font-size-small-s: 10px;
+$font-size-small: 12px;
+$font-size-medium: 14px;
+$font-size-medium-x: 16px;
+$font-size-large: 18px;
+$font-size-large-x: 22px;
+$font-size-icon-medium: 24px;
+
+//icon定义规范
+$icon-size-small: 20px;
+$icon-size-medium: 22px;
+$icon-size-large: 24px;
+
+//z-index定义规范
+$z-index-level-0: -1;
+$z-index-level-1: 10;
+$z-index-level-2: 20;
+$z-index-level-3: 30;
+$z-index-level-4: 40;
+$z-index-level-5: 50;
+$z-index-level-6: 60;
+$z-index-level-7: 70;
+$z-index-level-8: 80;
+$z-index-level-9: 90;
